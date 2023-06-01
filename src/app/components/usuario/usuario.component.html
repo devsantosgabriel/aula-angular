@@ -1,0 +1,7 @@
+<h1>Página do Usuário</h1>
+<h3>Dados de pessoas</h3>
+<ul>
+    <li *ngFor = "let dado of usuarios">Identificação: {{dado.id}}  Nome:{{dado.nome}}  Idade: {{dado.idade}}
+    <button (click)= "removePessoa(usuario)">Excluir</button>  
+    </li> 
+</ul>
